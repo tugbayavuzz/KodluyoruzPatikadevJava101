@@ -1,4 +1,4 @@
-package com.kodluyoruzpatikadev.CalculateKDV;
+package com.kodluyoruzpatikadev.CalculatingVAT;
 
 import java.util.Scanner;
 
