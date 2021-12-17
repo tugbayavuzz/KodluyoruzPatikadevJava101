@@ -5,8 +5,8 @@ import java.util.Scanner;
 public class CalculateCircleMain {
     public static void main(String[] args) {
          int radius;
-         final double PI = 3.14;
-         double area, perimeter,alpha = 0;
+         //final double PI = 3.14;
+         double area, perimeter;
 
         Scanner input = new Scanner(System.in);
         System.out.println("Enter the radius: ");
