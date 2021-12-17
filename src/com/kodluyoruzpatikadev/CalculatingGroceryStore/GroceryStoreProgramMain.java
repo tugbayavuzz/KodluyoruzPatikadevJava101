@@ -1,4 +1,4 @@
-package com.kodluyoruzpatikadev.GroceryStoreProgram;
+package com.kodluyoruzpatikadev.CalculatingGroceryStore;
 
 import java.util.Scanner;
 

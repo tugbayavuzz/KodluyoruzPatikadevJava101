@@ -1,4 +1,4 @@
-package com.kodluyoruzpatikadev.TaximeterProgram;
+package com.kodluyoruzpatikadev.CalculatingTaximeterProgram;
 
 import java.util.Scanner;
 

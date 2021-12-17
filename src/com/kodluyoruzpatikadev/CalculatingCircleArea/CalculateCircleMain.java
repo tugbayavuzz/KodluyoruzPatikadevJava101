@@ -1,4 +1,4 @@
-package com.kodluyoruzpatikadev.CalculateCircleArea;
+package com.kodluyoruzpatikadev.CalculatingCircleArea;
 
 import java.util.Scanner;
 

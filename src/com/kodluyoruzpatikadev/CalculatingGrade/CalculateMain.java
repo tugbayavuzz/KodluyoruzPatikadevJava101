@@ -1,4 +1,4 @@
-package com.kodluyoruzpatikadev.CalculateGrade;
+package com.kodluyoruzpatikadev.CalculatingGrade;
 
 import java.util.Scanner;
 

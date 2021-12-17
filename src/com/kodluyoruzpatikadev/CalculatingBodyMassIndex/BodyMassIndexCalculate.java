@@ -1,4 +1,4 @@
-package com.kodluyoruzpatikadev.BodyMassIndexCalculate;
+package com.kodluyoruzpatikadev.CalculatingBodyMassIndex;
 
 import java.util.Scanner;
 
