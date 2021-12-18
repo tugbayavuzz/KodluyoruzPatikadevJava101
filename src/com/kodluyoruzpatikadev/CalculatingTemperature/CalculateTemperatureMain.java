@@ -9,7 +9,7 @@ public class CalculateTemperatureMain {
         Scanner input = new Scanner(System.in);
         System.out.println("Enter the heat");
         heat = input.nextInt();
-        String query = (heat < 5) ? "Kayak" : "";
+        String query = (heat < 5) ? "Kmonthak" : "";
         System.out.println(query);
 
         String query2 = (heat <=5 || heat <15) ? "Sinema" : "";
