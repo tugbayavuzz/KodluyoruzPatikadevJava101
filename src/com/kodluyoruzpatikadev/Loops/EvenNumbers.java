@@ -4,12 +4,13 @@ import java.util.Scanner;
 
 public class EvenNumbers {
     public static void main(String[] args) {
-        int number;
+        int number, total = 0, count = 0;
 
         Scanner input = new Scanner(System.in);
 
         System.out.println("Enter the number");
         number = input.nextInt();
+
 
         //Program to Find Even Numbers Up To The Entered Number
         for (int i = 1; i <= number; i++) {
@@ -20,13 +21,13 @@ public class EvenNumbers {
         }
 
         //Program that calculates the average of numbers divisible by 3 and 4 from numbers from 0 to the number entered.
-        int total = 0, count = 0;
+
         for (int i = 0; i <= number; i++) {
             if (i % 3 == 0 && i % 4 == 0) {
                 total += i;
                 count++;
+                System.out.println("Average : " + (total / count));
             }
         }
-        System.out.println("Average : " + (total / count));
     }
 }
