@@ -2,7 +2,7 @@ package com.kodluyoruzpatikadev.Loops;
 
 import java.util.Scanner;
 
-public class OddNumbers {
+public class EvenNumbers_2 {
     public static void main(String[] args) {
         int number, total = 0;
         Scanner input = new Scanner(System.in);
