@@ -49,4 +49,8 @@ For Loop
 - Practice - Program to Find the Sum of Odd Numbers
 - Practice - Program to Find Powers of 2 Less Than Entered Number
 - Practice - Factorial Calculator Program
-- Practical - Exponent Calculator Program
+- Practical - Exponent Calculator Program-
+- Practice - Program to Find Armstrong Numbers
+- Practice - Program to Find Harmonic Numbers
+- Practical - Triangle Making with Stars
+- Practice - ATM Project
