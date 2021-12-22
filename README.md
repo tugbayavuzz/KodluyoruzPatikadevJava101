@@ -1,6 +1,7 @@
 ﻿# KodluyoruzPatikadevJava101
--Variables and Data Types
--Byte, Short, Int and Long Data Types
+ 
+## Variables and Data Types
+## Byte, Short, Int and Long Data Types
  Float and Double Data Types
  Char and Boolean Data Types
  String Data Type
