@@ -1,6 +1,5 @@
 package com.kodluyoruzpatikadev.Loops;
 
-import java.awt.*;
 import java.util.Scanner;
 
 public class HarmonicNumbers {
