@@ -14,7 +14,6 @@ public class GCDLCMMain {
         System.out.print("Enter the number2:");
         number2 = input.nextInt();
 
-
 // ebob için for ve while kullanılarak yazilan kod
         if (number1 < number2) {
             for (int i = 1; i <= number1; i++) {
