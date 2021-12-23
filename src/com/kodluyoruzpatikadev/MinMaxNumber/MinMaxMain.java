@@ -15,11 +15,11 @@ public class MinMaxMain {
             System.out.println(i + ". enter number : ");
             int sayi = input.nextInt();
 
-            if (sayi < min) {
-                min = sayi;
+            if (number < min) {
+                min = number;
             }
-            if (sayi > max) {
-                max = sayi;
+            if (number > max) {
+                max = number;
             }
         }
         System.out.println("The largest number: " + max);
