@@ -13,7 +13,6 @@ public class PrimeNumber {
                     break;
                 }
             }
-
             if (check == 0) {
                 System.out.print(number + "\n");
 
