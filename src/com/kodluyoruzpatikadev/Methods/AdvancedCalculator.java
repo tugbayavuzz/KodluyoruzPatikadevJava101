@@ -2,7 +2,7 @@ package com.kodluyoruzpatikadev.Methods;
 
 import java.util.Scanner;
 
-public class CalculatorRecursive {
+public class AdvancedCalculator {
     static void plus() {
         Scanner scan = new Scanner(System.in);
         int number, result = 0, i = 1;
