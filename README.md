@@ -54,3 +54,9 @@ For Loop
 - Practice - Program to Find Harmonic Numbers
 - Practical - Triangle Making with Stars
 - Practice - ATM Project
+- Practice - The Program that Finds EBOB-EKOK
+- Homework - Finding Min and Max Values
+- Homework - Program to Find Perfect Numbers
+- Homework - Making an Inverted Triangle
+- Homework - Program to Find Prime Numbers 1-100
+- Homework - Fibonacci Series
