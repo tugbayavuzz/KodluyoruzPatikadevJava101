@@ -1,4 +1,4 @@
-package com.kodluyoruzpatikadev.Loops;
+package com.kodluyoruzpatikadev.Methods;
 
 import java.util.Scanner;
 
