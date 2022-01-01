@@ -19,10 +19,11 @@ public class Student {
         this.isPass = false;
     }
 
-    void addBulkExamNote(int note1, int note2, int note3) {
+    void addBulkExamNote(int note1, int note2, int note3,int oral1, int oral2, int oral3) {
 
         if ((note1 >= 0 && note1 <= 100)) {
             this.course1.note = note1;
+
         }
         if ((note2 >= 0 && note2 <= 100)) {
             this.course2.note = note2;
@@ -30,11 +31,27 @@ public class Student {
         if ((note3 >= 0 && note3 <= 100)) {
             this.course3.note = note3;
         }
+
+        if(oral1 >=0 && oral1 <=100){
+            this.course1.oralScore = oral1;
+        }
+
+        if(oral2 >=0 && oral2 <=100){
+            this.course2.oralScore = oral2;
+        }
+
+        if(oral3 >=0 && oral3 <=100){
+            this.course3.oralScore = oral3;
+        }
+
     }
+
 
     void isPass(){
         System.out.println("=================================================");
-        this.average = (this.course1.note + this.course2.note + this.course3.note)/3.0;
+        this.average = ((this.course1.note*0.8 + this.course1.oralScore*0.2) +
+                (this.course2.note*0.8 + this.course2.oralScore*0.2)+
+                (this.course3.note*0.8 + this.course3.oralScore*0.2))/3.0;
         if (this.average > 55){
             System.out.println(this.name +"\t"+"Successfully passed your class");
             this.isPass = true;

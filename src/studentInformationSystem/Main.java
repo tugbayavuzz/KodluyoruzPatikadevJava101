@@ -18,12 +18,13 @@ public class Main {
 
 
         Student s1 = new Student("Tugba", "10","4",math,phy,lit);
-        s1.addBulkExamNote(100,100,100);
+        s1.addBulkExamNote(100,100,100,99,90,98);
         s1.isPass();
 
         Student s2 = new Student("Defne", "12","4",math,phy,lit);
-        s2.addBulkExamNote(55,77,39);
+        s2.addBulkExamNote(55,77,39,85,80,70);
         s2.isPass();
+
 
 
     }

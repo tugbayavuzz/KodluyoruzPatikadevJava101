@@ -5,11 +5,13 @@ public class Course {
     Teacher teacher;//we produced reference in Teacher class
     String name, code, prefix;
     int note;
+    int oralScore;
 
     public Course(String name, String code, String prefix) {
         this.name = name;
         this.code = code;
         this.prefix = prefix;
+        this.oralScore = 0;
         this.note = 0;
     }
 
