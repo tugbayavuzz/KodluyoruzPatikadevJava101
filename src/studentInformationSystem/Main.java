@@ -2,31 +2,29 @@ package studentInformationSystem;
 
 public class Main {
     public static void main(String[] args) {
+        Teacher t1 = new Teacher("Tugba", "MATH","1111");
+        Teacher t2 = new Teacher("Jane", "PHY","1154");
+        Teacher t3 = new Teacher("George", "LIT","0101");
 
-        Course mat = new Course("Matematik", "MAT101", "MAT");
-        Course fizik = new Course("Fizik", "FZK101", "FZK");
-        Course kimya = new Course("Kimya", "KMY101", "KMY");
 
-        Teacher t1 = new Teacher("Mahmut Hoca", "90550000000", "MAT");
-        Teacher t2 = new Teacher("Fatma Ayşe", "90550000001", "FZK");
-        Teacher t3 = new Teacher("Ali Veli", "90550000002", "KMY");
+        Course math = new Course( "Mathematics", "101", "MATH");
+        math.addTeacher(t1);
 
-        mat.addTeacher(t1);
-        fizik.addTeacher(t2);
-        kimya.addTeacher(t3);
+        Course phy = new Course( "Physics", "102", "PHY");
+        phy.addTeacher(t2);
 
-        Student s1 = new Student("İnek Şaban", 4, "140144015", mat, fizik, kimya);
-        s1.addBulkExamNote(50,20,40);
+        Course lit = new Course( "Literature", "103", "LIT");
+        lit.addTeacher(t3);
+
+
+        Student s1 = new Student("Tugba", "10","4",math,phy,lit);
+        s1.addBulkExamNote(100,100,100);
         s1.isPass();
 
-        Student s2 = new Student("Güdük Necmi", 4, "2211133", mat, fizik, kimya);
-        s2.addBulkExamNote(100,50,40);
+        Student s2 = new Student("Defne", "12","4",math,phy,lit);
+        s2.addBulkExamNote(55,77,39);
         s2.isPass();
 
-        Student s3 = new Student("Hayta İsmail", 4, "221121312", mat, fizik, kimya);
-        s3.addBulkExamNote(50,20,40);
-        s3.isPass();
 
     }
 }
-

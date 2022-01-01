@@ -1,10 +1,9 @@
 package studentInformationSystem;
 
 public class Course {
-    Teacher courseTeacher;
-    String name;
-    String code;
-    String prefix;
+
+    Teacher teacher;//we produced reference in Teacher class
+    String name, code, prefix;
     int note;
 
     public Course(String name, String code, String prefix) {
@@ -14,20 +13,19 @@ public class Course {
         this.note = 0;
     }
 
-    public void addTeacher(Teacher t) {
-        if (this.prefix.equals(t.branch)) {
-            this.courseTeacher = t;
-            System.out.println("İşlem başarılı");
-        } else {
-            System.out.println(t.name + " Akademisyeni bu dersi veremez.");
+    void addTeacher(Teacher teacher){
+
+        if(teacher.branch.equals(this.prefix)){
+            this.teacher =  teacher;
         }
+        else
+        {
+            System.out.println("The teacher and course sections do not match ");
+        }
+
     }
 
-    public void printTeacher() {
-        if (courseTeacher != null) {
-            System.out.println(this.name + " dersinin Akademisyeni : " + courseTeacher.name);
-        } else {
-            System.out.println(this.name + " dersine Akademisyen atanmamıştır.");
-        }
+    void printTeacher(){
+        this.teacher.print();
     }
 }
