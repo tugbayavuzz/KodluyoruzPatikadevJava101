@@ -33,9 +33,9 @@ public class MineSweeper {
          this.status = true;
          while(this.status){
              showGameBoard(this.board);
-             System.out.print("Please enter your row value : ");
+             System.out.print("Please enter your row  : ");
              userRow = scanner.nextInt();
-             System.out.print("Please enter your column value : ");
+             System.out.print("Please enter your column  : ");
              userColumn = scanner.nextInt();
              if ((userRow < 0 || userRow > this.rowNumber - 1) && (userColumn < 0 || userColumn > this.columnNumber - 1)) {
                  //Seçilen noktanın dizinin sınırları içerisinde olup olmadığını kontrol edilmeli ve koşul sağlanmazsa tekrar nokta istenmeli.
@@ -50,8 +50,8 @@ public class MineSweeper {
                  this.status = true;
                  counter++;
                  if (counter == (this.size - this.size / 4)) { //Diziye ait eleman sayısının çeyreği (elemanSayisi / 4) kadar rastgele mayın yerleştirilmeli.
-                     System.out.println("Congratulations, You won the game...");
-                     break;
+                     System.out.println("Congratulations, you win");
+                 break;
                  }
              }
 
@@ -71,12 +71,12 @@ public class MineSweeper {
         }
     }
     public void playMines() {
-        int randomRow, randowCol, counter = 0;
+        int randomRow, randomCol, counter = 0;
         while (counter != (size / 4)) {
             randomRow = random.nextInt(rowNumber);
-            randowCol = random.nextInt(columnNumber);
-            if (map[randomRow][randowCol] != -1) {
-                map[randomRow][randowCol] = -1;
+            randomCol = random.nextInt(columnNumber);
+            if (map[randomRow][randomCol] != -1) {
+                map[randomRow][randomCol] = -1;
                 counter++;
             }
 
